@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body class="max-w-lg dark:bg-slate-800 dark:text-white p-3">
+    <div class="flex justify-center items-center mb-3">
+      <div>
+        <img src="/icons/ps.png" width="32rem" alt="logo" />
+      </div>
+      <div class="px-3 text-4xl text-center">Proton Hopper</div>
+    </div>
+    <div id="no-data-present">
+      <div class="text-xl text-center mb-3">No data available yet</div>
+      <div
+        class="flex p-4 mb-4 text-sm text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800"
+        role="alert"
+      >
+        <svg
+          aria-hidden="true"
+          class="flex-shrink-0 inline w-5 h-5 mr-3"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+        <span class="sr-only">Info</span>
+        <div>
+          <div class="font-medium">
+            Visit
+            <a
+              href="https://account.proton.me/switch"
+              target="_blank"
+              class="underline"
+            >
+              https://account.proton.me/switch
+            </a>
+            and open this popup again.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="data-present" class="hidden">
+      <div class="text-xl mb-3">Active Proton accounts</div>
+      <div class="relative overflow-x-auto shadow-md rounded-lg">
+        <table
+          class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+        >
+          <thead
+            class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+          >
+            <tr>
+              <th class="p-2">No.</th>
+              <th>Name</th>
+              <th>Login</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+      <div
+        class="hidden p-4 my-3 text-sm text-blue-800 border border-blue-300 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400 dark:border-blue-800"
+        role="alert"
+        id="not-latest-info"
+      >
+        <svg
+          aria-hidden="true"
+          class="flex-shrink-0 inline w-5 h-5 mr-3"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+        <span class="sr-only">Info</span>
+        <div>
+          <div class="font-medium text-xs">
+            Visit
+            <a
+              href="https://account.proton.me/switch"
+              target="_blank"
+              class="underline"
+            >
+              https://account.proton.me/switch
+            </a>
+            if you have added or removed any proton accounts. Then open this
+            popup again.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- button component -->
+    <div class="hidden">
+      <button
+        type="button"
+        id="open-btn"
+        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        <svg
+          aria-hidden="true"
+          class="w-4 h-4"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+        <span class="sr-only">Icon description</span>
+      </button>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>

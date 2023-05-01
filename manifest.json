@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Proton Switch",
+  "version": "1.0",
+  "description": "Easily switch between ProtonMail accounts with a single click.",
+  "browser_action": {
+    "default_popup": "popup/index.html",
+    "default_icon": "icons/ps.png"
+  },
+  "icons": {
+    "48": "icons/favicon-48x48.png",
+    "96": "icons/favicon-96x96.png"
+  },
+  "permissions": ["*://account.proton.me/*", "storage"]
+}

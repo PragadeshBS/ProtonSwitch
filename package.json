@@ -1,0 +1,16 @@
+{
+  "name": "protonswitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content_script.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./popup/input.css -o ./popup/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
