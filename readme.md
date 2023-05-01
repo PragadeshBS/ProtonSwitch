@@ -1,6 +1,6 @@
-# Proton Hopper 🐰
+# Proton Switch 📨
 
-Proton Hopper is a Firefox extension that simplifies the process of switching between multiple ProtonMail accounts. With Proton Hopper, you can quickly and easily access and switch between your ProtonMail accounts without having to go to the ProtonMail switch page every time. This extension provides a more efficient and streamlined process for managing multiple ProtonMail accounts.
+Proton Switch is a Firefox extension that simplifies the process of switching between multiple ProtonMail accounts. With Proton Switch, you can quickly and easily access and switch between your ProtonMail accounts without having to go to the ProtonMail switch page every time. This extension provides a more efficient and streamlined process for managing multiple ProtonMail accounts.
 Features
 
 - Quick access to multiple ProtonMail accounts
@@ -13,8 +13,19 @@ Features
 
 - Install the extension from the Firefox Add-ons store (coming soon).
 - Visit [Proton switch page](https://account.proton.me/switch) and open the extension popup to add your accounts. (This is a one-time process. You only need to do this if you add or remove accounts later)
-- Click on the Proton Hopper icon in your browser toolbar. Tip: Pin the extension to your toolbar for easy access.
+- Click on the Proton Switch icon in your browser toolbar. Tip: Pin the extension to your toolbar for easy access.
 - Choose the account you want to switch to and voila you are done!
+
+## Screenshots
+
+<img src='screenshots/ss1.png'>
+<p>Switch between multiple ProtonMail accounts with ease ➡️</p>
+
+<img src='screenshots/ss2.png'>
+<p>Switch from any page on the web 🌐</p>
+
+<img src='screenshots/ss3.png'>
+<p>Supports both light and dark themes 🌗</p>
 
 ## Contributing
 
