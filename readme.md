@@ -11,7 +11,7 @@ Features
 
 ## How to Use
 
-- Install the extension from the Firefox Add-ons store (coming soon).
+- [Install](https://addons.mozilla.org/en-US/firefox/addon/proton-switch) the extension from the Firefox Add-ons store.
 - Visit [Proton switch page](https://account.proton.me/switch) and open the extension popup to add your accounts. (This is a one-time process. You only need to do this if you add or remove accounts later)
 - Click on the Proton Switch icon in your browser toolbar. Tip: Pin the extension to your toolbar for easy access.
 - Choose the account you want to switch to and voila you are done!
