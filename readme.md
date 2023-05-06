@@ -18,14 +18,14 @@ Features
 
 ## Screenshots
 
-<img src='screenshots/ss1.png'>
+<img src='screenshots/ss6.png'>
 <p>Switch between multiple ProtonMail accounts with ease ➡️</p>
 
-<img src='screenshots/ss2.png'>
-<p>Switch from any page on the web 🌐</p>
-
-<img src='screenshots/ss3.png'>
+<img src='screenshots/ss4.png'>
 <p>Supports both light and dark themes 🌗</p>
+
+<img src='screenshots/ss5.png'>
+<p>Switch from any page on the web 🌐</p>
 
 ## Contributing
 
